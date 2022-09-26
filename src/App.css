@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: powderblue;
+  line-height: 1;
+  margin: 2rem;
+}
+
+/* fira-code-regular - latin */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  src: url(FiraCode-Regular.ttf);
+}
+
+.profile-info {
+  text-align: left;
+  padding: 1rem 1rem 1rem 2rem;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+
+.profile-pic {
+  height: 10rem;
+  pointer-events: none;
+  filter: invert(93%) sepia(68%) saturate(6294%) hue-rotate(176deg)
+    brightness(95%) contrast(88%);
+}
+
+.profile-link {
+  color: powderblue;
+}
+
+.profile-link:hover {
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .profile-pic {
+    animation: profile-pic-spin infinite 20s linear;
+  }
+}
+
+@keyframes profile-pic-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
