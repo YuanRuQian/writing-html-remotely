@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/writing-html-remotely/static/css/main.e7490b6b.css",
+    "main.js": "/writing-html-remotely/static/js/main.2343fcac.js",
+    "static/js/787.d81f3025.chunk.js": "/writing-html-remotely/static/js/787.d81f3025.chunk.js",
+    "static/media/FiraCode-Regular.ttf": "/writing-html-remotely/static/media/FiraCode-Regular.fc45da4c3e5b90c232a2.ttf",
+    "static/media/profile_pic.svg": "/writing-html-remotely/static/media/profile_pic.06f09b7ba4038da7e2d514b688e062e3.svg",
+    "index.html": "/writing-html-remotely/index.html",
+    "main.e7490b6b.css.map": "/writing-html-remotely/static/css/main.e7490b6b.css.map",
+    "main.2343fcac.js.map": "/writing-html-remotely/static/js/main.2343fcac.js.map",
+    "787.d81f3025.chunk.js.map": "/writing-html-remotely/static/js/787.d81f3025.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7490b6b.css",
+    "static/js/main.2343fcac.js"
+  ]
+}
